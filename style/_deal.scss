@@ -1,0 +1,56 @@
+.deal {
+    margin-top: 222px;
+    margin-bottom: 123px;
+    max-width: $header_max_width;
+    margin-left: auto;
+    margin-right: auto;
+
+    &-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &-header-title {
+        font-size: 40px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+
+    &-header-desc {
+        font-size: 16px;
+        max-width: 470px;
+    }
+
+    &-header-button {
+        border: none;
+        background-color: $red;
+        color: white;
+        padding: 20px 33px;
+        box-shadow: 0px 100px 80px rgba(248, 90, 71, 0.07), 0px 64.8148px 46.8519px rgba(248, 90, 71, 0.0531481), 0px 38.5185px 25.4815px rgba(248, 90, 71, 0.0425185), 0px 20px 13px rgba(248, 90, 71, 0.035), 0px 8.14815px 6.51852px rgba(248, 90, 71, 0.0274815), 0px 1.85185px 3.14815px rgba(248, 90, 71, 0.0168519);
+        border-radius: 5px;
+    }
+
+    &-list {
+        margin-top: 50px;
+        display: flex;
+        gap: 50px;
+        margin-bottom: 45px;
+    }
+
+    &-list h5 {
+        font-weight: 400;
+        font-size: 19px;
+    }
+
+    &-item-active {
+        font-weight: 600;
+        color: $red;
+        border-bottom: 1px solid $red;
+    }
+
+    &-items-img {
+        display: flex;
+        justify-content: space-between;
+    }
+}

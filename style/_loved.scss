@@ -1,0 +1,81 @@
+.loved {
+    margin-top: 196px;
+    max-width: $header_max_width;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 210px;
+
+    &-header {
+        font-size: 40px;
+        font-weight: 600;
+        max-width: 570px;
+        margin-bottom: 50px;
+    }
+
+    &-list-card {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-card {
+        width: 380px;
+        padding: 38px;
+        border: 1px solid #EBEBEB;
+        border-radius: 10px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    &-card:hover {
+        box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0227778), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0182222), 0px 20px 13px rgba(0, 0, 0, 0.015), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222), 3px 44px 54px rgba(0, 0, 0, 0.08);
+    }
+
+    &-card:hover .loved-card-author img {
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    &-card-desc {
+        margin-top: 34px;
+        max-width: 270px;
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 53px;
+    }
+
+    &-card-author {
+        display: flex;
+        gap: 20px;
+    }
+
+    &-card-author h5 {
+        color: #333;
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    &-card-author p {
+        color: #666666;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    &-partner {
+        margin-top: 85px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &-partner p {
+        max-width: 311px;
+        font-size: 16px;
+    }
+
+    &-partner p a {
+        color: #2CBDE7;
+        text-decoration: underline;
+    }
+}
+
+.fa-star {
+    color: #FBB040;
+}
